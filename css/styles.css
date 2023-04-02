@@ -157,8 +157,8 @@ input:required:focus:invalid {
     outline: none;
 }*/
 
-input:required:invalid:not(:placeholder-shown) {box-shadow: 0 0 5px 1px red; outline: none;}
-input:required:valid:not(:placeholder-shown) {box-shadow: 0 0 5px 1px green; outline: none;}
+input:required:focus:invalid:not(:placeholder-shown) {box-shadow: 0 0 5px 1px red; outline: none;}
+input:required:focus:valid:not(:placeholder-shown) {box-shadow: 0 0 5px 1px green; outline: none;}
 
 
 
