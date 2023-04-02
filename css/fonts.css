@@ -1,0 +1,119 @@
+
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat-Regular'), local('Montserrat-Regular'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('ttf'),
+        url('../fonts/Montserrat-Regular.eot') format('eot');
+}
+
+
+@font-face {
+    font-family: 'SpectralSC-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SpectralSC-Regular'), local('SpectralSC-Regular'),
+        url('../fonts/SpectralSC-Regular.woff2') format('woff2'),
+        url('../fonts/SpectralSC-Regular.woff') format('woff'),
+        url('../fonts/SpectralSC-Regular.ttf') format('ttf'),
+        url('../fonts/SpectralSC-Regular.eot') format('eot');
+}
+
+
+
+
+.form-title {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+    /*text-align: justify;*/
+
+}
+
+
+.fields 
+{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+
+    color: #424242;
+   
+}
+
+input::-webkit-input-placeholder { color: #BDBDBD; }
+
+
+/*.label { ------------------------------
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}*/
+
+
+.links {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+}
+
+.check label {
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #424242;
+}
+
+
+.sign-in input {
+    font-family: 'SpectralSC-Regular', sans-serif;
+    width: 62px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sign-up input {
+    font-family: 'SpectralSC-Regular', sans-serif;
+    width: 127px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
